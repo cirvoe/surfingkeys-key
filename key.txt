@@ -86,9 +86,9 @@ Visual.style('cursor', 'background-color: #51AFEF;');
 
 
 settings.tabsThreshold = 90;
-mapkey('<Space>', 'Choose a tab with omnibar', function() {
-    Front.openOmnibar({type: "Tabs"});
-});
+//mapkey('<Space>', 'Choose a tab with omnibar', function() {
+   // Front.openOmnibar({type: "Tabs"});
+//});
 
 Front.registerInlineQuery({
     url: "https://api.shanbay.com/bdc/search/?word=",
